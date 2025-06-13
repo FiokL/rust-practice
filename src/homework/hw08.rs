@@ -40,13 +40,12 @@ fn test_is_prime() {
         .for_each(|(n, prime)| 
             assert_eq!(is_prime(n), *prime)
         );
-    println!("All tests passed!");
 }
 
 fn main() {
     let numbers = [7, 10, 13, 20];
     for n in numbers.iter() {
-        println!("{} is prime? {}", n, is_prime(n));
+        println!("{} prime? {}", n, is_prime(n));
     }
     
     test_is_prime();
