@@ -43,7 +43,6 @@ fn test() {
                 exp.to_string()
             )
         );
-    println!("All tests passed!");
 }
 
 fn main() {
